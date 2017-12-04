@@ -7,7 +7,7 @@ output:
     keep_tex: yes
 header-includes:
   - \setlength{\parindent}{4em}
-  - \setlength{\parskip}{0em}
+  - \setlength{\parskip}{1em}
 bibliography: bib_ensayo_fronteras.bib
 ---
 
@@ -17,38 +17,43 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ##Introducción
 
+
 Uno de los principales moduladores de la pérdida de habitat en el planeta es el cambio de uso de suelo. Esta transformación del habitat ha sido provocada principalmente por actividades del hombre como la agricultura, la que incluye el efecto de los cultivos, como también de la deforestación nativa y reforestación con plantaciones comerciales y la sobrexplotación de los suelos producto de la ganadería. Sin embargo, otro factor importante que ha generado cambios aun más dramáticos que la agricultura, aunque quizás en una menor extensión, es la urbanización. El factor urbano genera cambios de uso de suelo casi irreversibles a las condiciones naturales en comparación con la agricultura, que a pesar de ser más extensiva, mantiene un componente vegetal que puede permitir la vida silvestre bajo ciertas condiciones.
 
 Una forma en la que se puede observar de forma cuantitativa el cambio o impacto del hombre es con el llamado *Human Foot Print*, el cual es un índice que muestra el porcentage de influencia relativa del hombre sobre cada bioma terrestre del planeta [@sanderson2002human]. Los sitios más afectados y que por lo tanto muestran un mayor porcentaje de influencia humana son aquellos afectados por la agricultura extensiva y las zonas urbanas. 
 
 Debido a esto último, zonas agrícolas y urbanas han sido blanco de estudio de cómo los cambios del paisaje o habitat modifican las comunidades naturales y distribución de las poblaciones. Sin embargo, alrededor de 30 años atrás, comenzó el estudio de la ecología urbana. Esta disciplina, que partió centrada en el ser humano y sus interacciones dentro de la ciudad, con el paso del tiempo se enfocó en el estudio de las especies que se encontraban viviendo en sitios urbanizados como parte de su hábitat [@marzluff2008international]. A partir de estos estudios se han podido determinar gradientes de urbanización que podrían explicar la presencia de especies en lugares que no parecerían aptos para ellas, viendose modificadas sus distribuciones de rango natural.
 
-Es importante considerar los factores que intervienen para que una especie se encuentre en el lugar que habita. El año 2011 surge un modelo en el cual la distribución de especies dependería de **factores ábioticos** como el conjunto de condiciones ambientales óptimas en que una especies pueda sobrevivir y reproducirse, tal como rangos de temperatura y humedad; los **factores bióticos** como las interacciones que una especie puede soportar o incluso necesitar, como depredación o mutualismos, respectivamente; y la **migración**, como la dispersión o la posibilidad de una especie de llegar a un lugar óptimo para asentarse [@peterson2011ecological]. 
+Es importante tomar en cuenta los factores que intervienen para que una especie se encuentre en el lugar que habita. El año 2011 surge un modelo en el cual la distribución de especies dependería de **factores ábioticos** como el conjunto de condiciones ambientales óptimas en que una especies pueda sobrevivir y reproducirse, tal como rangos de temperatura y humedad; los **factores bióticos** como las interacciones que una especie puede soportar o incluso necesitar, como depredación o mutualismos, respectivamente; y la **migración**, como la dispersión o la posibilidad de una especie de llegar a un lugar óptimo para asentarse [@peterson2011ecological]. 
 
-Considerando que el hombre actúa a la vez como un factor abiótico, por ejemplo generando nuevas condiciones de temperatura; como un factor biótico, generando nuevos hábitats para las especies o actuando como moduladores del comportamiento; o incluso generando barreras de migración o dispersion de especies, en este ensayo se propone un nuevo modelo, en el cual el ser humano corresponde a un cuarto factor (Fig.1). De esta forma, la urbanización puede ser considerada una variable, y en donde las distribuciones de las especies se verán modificadas según los diferentes grados de urbanización que presentan las ciudades.
+Considerando que el hombre actúa a la vez como un factor abiótico, por ejemplo generando nuevas condiciones de temperatura; como un factor biótico, generando nuevos hábitats para las especies o actuando como moduladores del comportamiento; o incluso generando barreras de migración o dispersion de especies, en este ensayo se propone un nuevo modelo, en el cual el ser humano corresponde a un cuarto factor. El modelo propuesto considera la interacción de los cuatro factores, en donde se pueden identificar dos secciones posibles en los cuales las especies pueden vivir. En un área, las especies necesitarán de ciertas condiciones abióticas, interacciones bióticas, factores de dispersión y condiciones de influencia humana para poder vivir (Fig.1, número 2). En la otra área (Fig.1, número 1), se encuentran las especies que no pueden vivir bajo hábitats que presentan influencia humana. La influencia humana puede ser cuantificada por valores de urbanización y por lo tanto considerada una variable en donde las distribuciones de las especies se verán modificadas según los diferentes grados de urbanización que presentan las ciudades.
 
 
-```{r, fig.cap="Modelo propuesto donde el ser humano es un cuarto factor determinante en la distribución de especies. Modificado de Anderson (2013)."}
-knitr::include_graphics("/home/giorgia/Documents/frontera-final/modelodis.png", dpi = 200)
+```{r, fig.cap="Modelo propuesto donde el ser humano es un cuarto factor determinante en la distribución de especies. Modificado de Peterson 2011"}
+knitr::include_graphics("/home/giorgia/Documents/frontera-final/modelodis2.png", dpi = 200)
 ```
 
 
 ###Diferencias poblacionales debido a diferencias locales de temperatura
 
-El ser humano  través del cambios en el uso del suelo ha sido capaz de modificar la temperatura local [@chen2006remote]. El *Urban Heat Island* (UHI) corresponde al aumento de la temperatura hacia el centro de las ciudades el cual se va discipando a medida que se va hacia las afueras de la ciudad [@oke1973city]. De esta forma, ciudades de mayor tamaño poseen mayor diferencia de temperaturas, afectando de distinta forma en distintos biomas [@imhoff2010remote]. Este fenómeno ha generado no solo cambios de hasta 4 grados en la sensación térmica de las personas habitantes de las ciudades, sino que también sobre las poblaciones naturales que habitan las ciudades.
 
-Un ejemplo de cómo la variación local de la temperatura provocada por el UHI modifica la distribución de las especies, lo entrega la especie de hormiga cortadora de hojas *Atta sexdens* que habita en Sao Paulo [@angilletta2007urban]. Colonias urbanas y rurales se encuentran diferenciadas, en donde las colonias urbanas han demostrado que se recuperan más rápidamente de shocks térmicos provocados por tempraturas altas (42°C), en comparación con las colonias rurales que no muestran adaptaciones a altas temperaturas.
+El ser humano  través del cambios en el uso del suelo ha sido capaz de modificar la temperatura local [@chen2006remote]. El *Urban Heat Island* (UHI) corresponde al aumento de la temperatura hacia el centro de las ciudades el cual se va discipando a medida que se va hacia las afueras de la ciudad [@oke1973city]. De esta forma, ciudades de mayor tamaño poseen mayor diferencia de temperaturas, afectando de distinta forma en distintos biomas [@imhoff2010remote]. Este fenómeno ha generado no sólo cambios de hasta 4°C en la sensación térmica de las personas habitantes de las ciudades, sino que también sobre las poblaciones naturales que habitan las ciudades.
+
+Un ejemplo de cómo la variación local de la temperatura provocada por el UHI modifica la distribución de las especies, lo entrega la especie de hormiga cortadora de hojas *Atta sexdens* que habita en Sao Paulo [@angilletta2007urban]. Colonias urbanas y rurales se encuentran diferenciadas, en donde las colonias urbanas han demostrado que se recuperan más rápidamente de shocks térmicos provocados por tempraturas altas (42°C), en comparación con las colonias rurales que no muestran adaptaciones a altas temperaturas. Considerando el modelo propuesto (Fig. 1), la colonia de hormigas urbanas que presentan adaptaciones a las condiciones de temperatura de la ciudad se encontrarían en el área 2, la colonia no urbana se encontraría en el área 1, donde no soporta las condiciones con influencia humana.
 
 
 ###El ser humano es capaz de fragmentar el habitat natural y crear nuevos habitats artificiales.
 
+
 Dentro de las ciudades existen, por lo general, verdaderos mosaicos de áreas verdes que generan habitats disponibles para especies. 
 Dentro de esto, es factible ver un gradiente de influencia humana en donde hay lugares que presentan una saturación de edificación (como el centro de las ciudades), construcciones, pavimentación en donde las calles poseen arboles y prados, plazas, parques, e incluso reservas naturales. Así como las especies poseen distintos requerimientos para vivir, éstas podrán habitar los distintos espacios dentro de la ciudad utilizando este gradiente.
 
-En estudios de ecología urbana se ha visto que las especies de aves presentes en las ciudades frecuentan tipos de habitats ubicados en las ciudades según este gradiente. De esta forma aves estudiadas en Santa Clara, CA fueron divididas entre expotadores urbanas, adaptables suburbanas y aquellas que evitaban los sitios urbanos en base a sus avistamientos [@blair1996land]. Las especies que evitan los sitios urbanizados deben ser más especialistas en sus requerimientos, los cuales solo pueden ser encontrados en ambientes más naturales solo presentes fuera de las ciudades o en zonas como reservas naturales dentro de las ciudades. Las especies adaptables suburbanas serán especies más generalistas en ase a sus requerimientos, los cuales pueden ser encontrados en lugares como plazas, parques y barrios residenciales. Las especies que son explotadoras urbanas no solo serán especies generalistas capaces de encontrar sus requerimientos en las ciudades, sino que además las condiciones de mayor urbanización, la presencia de edificación y pavimento, deberán presentar considerables ventajas para vivir y reproducirse. En esta ultima categoria caen las palomas y gorriones, para los cuales la urbanización presentará probablemente escape a depredadores, facilidad de encontrar alimento y/o facilidad de nidificación.
+En estudios de ecología urbana se ha visto que las especies de aves presentes en las ciudades frecuentan tipos de habitats ubicados en las ciudades según este gradiente. De esta forma aves estudiadas en Santa Clara, CA fueron divididas entre expotadores urbanas, adaptables suburbanas y aquellas que evitaban los sitios urbanos en base a sus avistamientos [@blair1996land]. Las especies que evitan los sitios urbanizados deben ser más especialistas en sus requerimientos, los cuales solo pueden ser encontrados en ambientes más naturales sólo presentes fuera de las ciudades o en zonas como reservas naturales dentro de las ciudades (Fig. 1, área 1). Las especies adaptables suburbanas serán especies más generalistas en base a sus requerimientos, los cuales pueden ser encontrados en lugares como plazas, parques y barrios residenciales (Fig. 1, área 1 y 2). Las especies que son explotadoras urbanas no solo serán especies generalistas capaces de encontrar sus requerimientos en las ciudades, sino que además las condiciones de mayor urbanización, la presencia de edificación y pavimento, deberán presentar considerables ventajas para vivir y reproducirse (Fig. 1, área 2). En esta ultima categoria caen las palomas y gorriones, para los cuales la urbanización presentará probablemente escape a depredadores, facilidad de encontrar alimento y/o facilidad de nidificación.
+
 
 
 ###Luz artificial puede generar tanto cambios en el comportamiento de las especies o actuar como barreras de dispersión
+
 
 La urbanización ha traído un problema a la naturaleza anexo, que corresponde a la luz artificial. La luz artificial ha generado el cambio en los ciclos de día-noche tanto para humanos como para el resto de las especies que habitan las zonas urbanas, sus alrededores o incluso, para quienes las cruzan, por ejemplo en el vuelo.
 
@@ -56,10 +61,11 @@ Se ha visto que los cambios ciclo día noche a través del efecto de la luz arti
 
 Un segundo ejemplo es el caso de invertebrados terrestres capturados con trampas pitfall ubicadas entre focos de iluminaria pública [@davies2012street]. Bajo estas condiciones, depredadores y carroñeros muestran cambios en su comportamiento ya que salen más durante la noche bajo luz artificial que en oscuridad o incluso durante el día. En este caso como en el anterior, cambios en las redes tróficas pueden ejercer modificaciones sobre las población, lo cual puede verse reflejado en la distribución de la especie. 
 
-Por otro lado, luz artificial también puede actuar como una barrera para el movimiento de las especies, como el caso de murciélagos frugívoros que se ven afectados negativamente [@lewanzik2014artificial]. Aunque también puede ser factor de mortalidad importante. Es así como tortugas de la especie *Caretta  caretta*, que llegan a desovar a las playas de Florida, se ven desorientadas por la luminaria de la costanera, pierden el rumbo y son atropelladas [@mcfarlane1963disorientation]. Esta desorientación se presenta incluso en neonatos de la misma especie [@SIMOES2017]. 
+Por otro lado, luz artificial también puede actuar como una barrera para el movimiento de las especies, como el caso de murciélagos frugívoros que se ven afectados negativamente [@lewanzik2014artificial]. Aunque también puede ser factor de mortalidad importante. Es así como tortugas de la especie *Caretta  caretta*, que llegan a desovar a las playas de Florida, se ven desorientadas por la luminaria de la costanera, pierden el rumbo y son atropelladas [@mcfarlane1963disorientation]. Esta desorientación se presenta incluso en neonatos de la misma especie [@SIMOES2017]. En ambos casos, estas especies presentan problemas en los hábitats con influencia humana (como los caminos o playas iluminadas), por lo tanto sus distribuciones estarían determinadas por los factores que determinan el área 1 de este modelo (Fig. 1).
 
 
-###Pérdida de habitat a través del cambio de us de suelo es un fenomeno gradual que puede permitir la adaptación de las especies
+###Pérdida de habitat a través del cambio de uso de suelo es un fenomeno gradual que puede permitir la adaptación de las especies
+
 
 La pérdida de habitat natural es comúnmente un proceso gradual en el tiempo, en el cual las especies se ven afectadas considerablemnete por su disminución. Sin embargo, el que algunas especies puedan ser más plásticas que otras a estos cambios, sumado al tiempo de asimilación de los cambios, puede generar una mayor adaptación de especies a los nuevos hábitats.
 
@@ -68,16 +74,19 @@ Un estudio en México da evidencia de este fenómeno de forma tangencial [@peter
 
 ###Puesta a prueba: la urbanización como un factor que modifica la distribución de las especies
 
+
 Considerando al ser humano como un factor más que determina la distribución de las especies, se consideró la urbanización como una variable continua. Se seleccionaron siete especies marinas que habitan la costa de Chile, se obtuvo sus puntos de presencia por GBIF y se descargó un mapa de urbanización de Chile [@tuanmu2014global]. Para cada una de las especies, se correlacionó cada punto de presencia con el porcentaje de urbanización que presentaba.
 
-Los resultados indican que todas las especies muestran una mayor ocurrencia en lugares con baja urbanización. Sin embargo, existen dos grupos que presentan distintas afinidades por la urbanización: 1. Aquellas especies en donde la mayor ocurrencia se presenta en lugares con una urbanización menor al 5%, en donde se distinguen *Otaria flavescens* y *Mirounga leonina*,y 2. Aquellas especies que muestran presencias en sitios hasta con 100% de urbanización y picks de individuos entre los 0 y 40% de urbanización, en donde se distinguen a *Larus dominicanus* y *Phalacrocorax brasilianus*
+Los resultados indican que todas las especies muestran una mayor ocurrencia en lugares con baja urbanización. Sin embargo, existen dos grupos que presentan distintas afinidades por la urbanización: 1. Aquellas especies en donde la mayor ocurrencia se presenta en lugares con una urbanización menor al 5%, en donde se distinguen *Otaria flavescens* y *Mirounga leonina* (Fig. 1, área 1), y 2. Aquellas especies que muestran presencias en sitios hasta con 100% de urbanización y picks de individuos entre los 0 y 40% de urbanización, en donde se distinguen a *Larus dominicanus* y *Phalacrocorax brasilianus* (Fig. 1, área 2).
 
 A pesar de que este ejercicio debe ser realizado con mayor detalle, en donde se consideren puntos de presencias reales de avistamiento de las especies, se puede concluir de forma preliminar que la presencia de especies se estaría viendo modificada por el porcentaje de urbanización en la costa.
 
 
 ##Conclusión
 
+
 Los efectos del ser humano han ido incrementando con el tiempo. En algún momento, cuando vivía en grupos pequeños de cazadores recolectores, su efecto sobre el resto de las especies era netamente trófico. Hoy en día, el ser humano es más que un depredador y se le ha definido como un ingeniero ecosistémico ya que modifica los ambientes donde habita. Sin embargo, los efectos del hombre van más alla del cambio del uso de suelo, son cambios bióticos, abióticos e incluso ha generado barreras de dispersión de especies. Es por esto que puede ser considerado como un cuarto factor en el modelo de los factores que determinan la distribución de especies, ya que su impacto va má alla de los otros tres factores por separado.
 
 
 ##Referencias
+
