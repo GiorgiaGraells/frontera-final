@@ -1,12 +1,12 @@
 ---
-title: "Urbanización y modificación de distribución de especies. Primera aproximación a la ecología urbana costera."
+title: "Urbanización y modificación de la distribución de especies. Una primera aproximación a la ecología urbana costera."
 author: "Giorgia Graells"
 date: "4 diciembre 2017"
 output: 
   pdf_document: 
     keep_tex: yes
 header-includes:
-  - \setlength{\parindent}{4em}
+  - \setlength{\parindent}{0em}
   - \setlength{\parskip}{1em}
 bibliography: bib_ensayo_fronteras.bib
 ---
@@ -29,7 +29,7 @@ Es importante tomar en cuenta los factores que intervienen para que una especie 
 Considerando que el hombre actúa a la vez como un factor abiótico, por ejemplo generando nuevas condiciones de temperatura; como un factor biótico, generando nuevos hábitats para las especies o actuando como moduladores del comportamiento; o incluso generando barreras de migración o dispersion de especies, en este ensayo se propone un nuevo modelo, en el cual el ser humano corresponde a un cuarto factor. El modelo propuesto considera la interacción de los cuatro factores, en donde se pueden identificar dos secciones posibles en los cuales las especies pueden vivir. En un área, las especies necesitarán de ciertas condiciones abióticas, interacciones bióticas, factores de dispersión y condiciones de influencia humana para poder vivir (Fig.1, número 2). En la otra área (Fig.1, número 1), se encuentran las especies que no pueden vivir bajo hábitats que presentan influencia humana. La influencia humana puede ser cuantificada por valores de urbanización y por lo tanto considerada una variable en donde las distribuciones de las especies se verán modificadas según los diferentes grados de urbanización que presentan las ciudades.
 
 
-```{r, fig.cap="Modelo propuesto donde el ser humano es un cuarto factor determinante en la distribución de especies. Modificado de Peterson 2011"}
+```{r, fig.cap="Modelo propuesto donde el ser humano es un cuarto factor determinante en la distribución de especies. Modificado de Peterson 2011. Los números 1 y 2 corresponden a condiciones en donde las especies pueden vivir, sin y con la influencia del ser humano, respectivamente."}
 knitr::include_graphics("/home/giorgia/Documents/frontera-final/modelodis2.png", dpi = 200)
 ```
 
